@@ -2,10 +2,12 @@
 <html lang="ko">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ipad 10.2 - Apple (KR)</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <title>iPad 10.2 - Apple (KR)</title>
+
+  <!--Open Graph-->
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Apple (KR)" />
   <meta property="og:title" content="iPad 10.2" />
@@ -14,6 +16,7 @@
   <meta property="og:image" content="./images/ipad-seo.png" />
   <meta property="og:url" content="https://apple.com/kr/ipad-10.2" />
 
+  <!--Twitter Card-->
   <meta property="twitter:card" content="summary" />
   <meta property="twitter:site" content="Apple (KR)" />
   <meta property="twitter:title" content="iPad 10.2" />
@@ -22,7 +25,7 @@
   <meta property="twitter:image" content="./images/ipad-seo.png" />
   <meta property="twitter:url" content="https://apple.com/kr/ipad-10.2" />
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -30,29 +33,38 @@
     rel="stylesheet">
 
   <link rel="stylesheet" href="./css/main.css" />
-  <script defer type='module' src='./js/main.js'></script>
+  <script defer type="module" src="./js/main.js"></script>
 </head>
 
 <body>
 
 
-  <!-- HEADER -->
+  <!-- Header -->
   <header>
     <div class="inner">
 
       <ul class="menu">
-        <li class='apple-logo'><a href="javascript:void(0)">Apple</a></li>
+        <li class="menu-starter">
+          <a>
+            <div>
+              <span></span>
+              <span></span>
+            </div>
+          </a>
+        </li>
+        <li class="apple-logo"><a href="javascript:void(0)">Apple</a></li>
         <li><a href="javascript:void(0)">스토어</a></li>
         <li><a href="javascript:void(0)">Mac</a></li>
         <li><a href="javascript:void(0)">iPad</a></li>
         <li><a href="javascript:void(0)">iPhone</a></li>
         <li><a href="javascript:void(0)">Watch</a></li>
         <li><a href="javascript:void(0)">AirPods</a></li>
+        <li><a href="javascript:void(0)">TV 및 홈</a></li>
         <li><a href="javascript:void(0)">Apple 독점 제공</a></li>
-        <li><a href="javascript:void(0)">엑세서리</a></li>
+        <li><a href="javascript:void(0)">액세서리</a></li>
         <li><a href="javascript:void(0)">고객지원</a></li>
-        <li class='search-starter'><a href="javascript:void(0)">검색</a></li>
-        <li class='basket-starter'>
+        <li class="search-starter"><a href="javascript:void(0)">검색</a></li>
+        <li class="basket-starter">
           <a href="javascript:void(0)">장바구니</a>
           <div class="basket">
             <div class="arrow"></div>
@@ -74,41 +86,60 @@
         <div class="search">
           <div class="shadow"></div>
           <div class="textfield">
-            <input type="text" placeholder='apple.com 검색' />
+            <input type="text" placeholder="apple.com 검색" />
             <div class="search-icon"></div>
             <div class="search-closer"></div>
           </div>
+          <div class="search-canceler">취소</div>
           <div class="autocompletes">
             <h3>빠른 링크</h3>
             <ul>
               <li><a href="javascript:void(0)">Apple Store 임시 휴무 관련 자주하는 질문</a></li>
               <li><a href="javascript:void(0)">Apple Store Online에서 쇼핑하기</a></li>
-              <li><a href="javascript:void(0)">엑세서리</a></li>
+              <li><a href="javascript:void(0)">액세서리</a></li>
               <li><a href="javascript:void(0)">AirPods</a></li>
               <li><a href="javascript:void(0)">AirTag</a></li>
             </ul>
           </div>
-
         </div>
       </div>
 
+      <div class="clone-menu">
+        <ul>
+          <li><a href="javascript:void(0)">스토어</a></li>
+          <li><a href="javascript:void(0)">Mac</a></li>
+          <li><a href="javascript:void(0)">iPad</a></li>
+          <li><a href="javascript:void(0)">iPhone</a></li>
+          <li><a href="javascript:void(0)">Watch</a></li>
+          <li><a href="javascript:void(0)">AirPods</a></li>
+          <li><a href="javascript:void(0)">TV 및 홈</a></li>
+          <li><a href="javascript:void(0)">Apple 독점 제공</a></li>
+          <li><a href="javascript:void(0)">액세서리</a></li>
+          <li><a href="javascript:void(0)">고객지원</a></li>
+        </ul>
+      </div>
     </div>
   </header>
 
+
   <!-- Navigation -->
   <nav>
+    <div class="shadow"></div>
+    <div class="contents-bg"></div>
     <div class="inner">
 
       <h1>iPad</h1>
+      <div class="menu-toggler"></div>
       <ul class="menu">
-        <li class='active'><a href="javascript:void(0)">개요</a></li>
+        <li class="active"><a href="javascript:void(0)">개요</a></li>
         <li><a href="javascript:void(0)">iPad를 선택하는 이유</a></li>
         <li><a href="javascript:void(0)">제품 사양</a></li>
       </ul>
-      <button class='btn'>구입하기</button>
+      <button href="javascript:void(0)" class="btn">구입하기</button>
 
     </div>
   </nav>
+
 
   <main>
 
@@ -116,18 +147,22 @@
     <section class="hero">
       <div class="inner">
 
-        <h1 class='bgtext'>iPad</h1>
+        <h1 class="bgtext">
+          iPad
+        </h1>
         <div class="figures">
           <figure>
             <img src="./images/hero_ipad.jpg" alt="iPad와 Smart Keyboard 및 Apple Pencil" />
-            <figcaption class='bgtext'>
+            <figcaption class="bgtext">
               <div class="caption-camera">센터 스테이지 기술이 적용된 새로운 울트라 와이드 전면 카메라</div>
               <div class="caption-chip">A13 BIONIC 칩 전격 탑재</div>
               <div class="caption-storage">저장 용량은 64GB부터</div>
             </figcaption>
           </figure>
         </div>
-        <h2 class='bgtext'>매사를 더욱 쉽게</h2>
+        <h2 class="bgtext">
+          매사를 더욱 쉽게.
+        </h2>
         <p class="pricing">
           ₩449,000부터
         </p>
@@ -137,9 +172,10 @@
           작업, 취미, 공부, 소통 등. 이 모든 것을 부담 없이 누릴 수 있죠.
         </p>
         <div class="links">
-          <a href="javascript:void(0)" class='link'>이벤트 시청하기</a>
-          <a href="javascript:void(0)" class='link'>iPad를 선택하는 이유</a>
+          <a href="javascript:void(0)" class="link">이벤트 시청하기</a>
+          <a href="javascript:void(0)" class="link">iPad를 선택하는 이유</a>
         </div>
+
       </div>
     </section>
 
@@ -220,31 +256,36 @@
       <div class="inner">
 
         <div class="notes">
-          <h1 class='bgtext'>빛나는 아이디어에 걸맞는 디스플레이</h1>
+          <h1 class="bgtext">
+            빛나는 아이디어에 걸맞은 디스플레이.
+          </h1>
           <div class="figures">
             <figure>
-              <img src="./images/display_notes.jpg" alt="IPad의 Goodnotes 5 앱에서 편집 중인 손글씨 필기" />
-              <figcaption class='bgtext'>노트 필기는 GOODNOTES 5로</figcaption>
+              <img src="./images/display_notes.jpg" alt="iPad의 Goodnotes 5 앱에서 편집 중인 손글씨 필기" />
+              <figcaption class="bgtext">노트 필기는 GOODNOTES 5로</figcaption>
             </figure>
           </div>
         </div>
+
         <div class="shareplay feature">
           <div class="figures">
             <figure>
               <img src="./images/display_shareplay.png" alt="SharePlay 기능으로 영상을 함께 즐기는 모습" />
-              <figcaption class='bgtext'>함께 보고 함께 즐기고</figcaption>
+              <figcaption class="bgtext">함께 보고 함께 즐기고</figcaption>
             </figure>
           </div>
           <div class="infos infos--center">
             <div class="info">
               <div class="icon icon--display"></div>
-              <p>놀랍도록 섬세한 디테일과 생생한 색상을 자랑하는 25.9cm Retina 디스플레이를 갖춘 iPad.<sup><a href="#footnote2">2</a></sup>
+              <p>
+                놀랍도록 섬세한 디테일과 생생한 색상을 자랑하는 25.9cm Retina 디스플레이를 갖춘 iPad.<sup><a href="#footnote2">2</a></sup>
                 영화를 감상할 때도, 프로젝트를 진행할 때도 또는 멋진 그림을 그릴 때도 더할 나위 없죠.
               </p>
             </div>
             <div class="info">
               <div class="icon icon--true-tone"></div>
-              <p>True Tone이 주변의 조명에 맞춰 색온도를 조절해줍니다.
+              <p>
+                True Tone이 주변의 조명에 맞춰 색온도를 조절해줍니다.
                 덕분에 어떤 조명에서도 눈이 편안한 화면을 경험할 수 있죠.
               </p>
             </div>
@@ -260,7 +301,9 @@
       <div class="inner">
 
         <div class="stage">
-          <h1 class='bgtext'>촬영에서 편집 공유까지 한 기기에서.</h1>
+          <h1 class="bgtext">
+            촬영에서 편집 공유까지 한 기기에서.
+          </h1>
           <div class="info">
             <div class="icon icon--center-stage"></div>
             <p>
@@ -270,32 +313,33 @@
           </div>
           <div class="figures">
             <figure>
-              <img src="./images/camera_hardware.png" alt="iPad의 영상 통화 중 센터 스테이지 기능이 사용되는 예시 " />
-              <video src="./videos/center-stage.mp4" muted loop autoplay></video>
-              <div class="controller--play hide">
-                재생 <img src="./images/video-play.svg" alt="Play" />
+              <img src="./images/camera_hardware.png" alt="iPad의 영상 통화 중 센터 스테이지 기능이 사용되는 예시" />
+              <div class="video-wrap">
+                <video src="./videos/center-stage.mp4" muted autoplay loop></video>
+                <div class="controller--play hide">
+                  재생 <img src="./images/video-play.svg" alt="Play" />
+                </div>
+                <div class="controller--pause">
+                  일시정지 <img src="./images/video-pause.svg" alt="Pause" />
+                </div>
               </div>
-              <div class="controller--pause">
-                일시정지 <img src="./images/video-pause.svg" alt="Pause" />
-              </div>
-              <figcaption class='bgtext'>센터 스테이지 덕분에 영상 통화도 더 자연스럽게</figcaption>
+              <figcaption class="bgtext">센터 스테이지 덕분에 영상 통화도 더 자연스럽게</figcaption>
             </figure>
           </div>
         </div>
+
         <div class="edit feature">
           <div class="infos infos--center">
             <div class="info">
               <div class="icon icon--front-camera"></div>
               <p>
-                12MP 울트라 와이드 전면 카메라는 센터 스테이지 기술뿐만 아니라 엉첨나게 향상된 이미지 화질을 자랑합니다.
+                12MP 울트라 와이드 전면 카메라는 센터 스테이지 기술뿐만 아니라 엄청나게 향상된 이미지 화질을 자랑합니다.
                 덕분에 더욱 훌륭한 셀카와 단체 사진도 찍을 수 있죠.
               </p>
             </div>
             <div class="info">
               <div class="icon icon--back-camera"></div>
-              <p>
-                iPad 후면에 탑재된 8MB 와이드 카메라는 선명하고 또렷한 사진과 동영상을 담을 수 있습니다.
-              </p>
+              <p>iPad 후면에 탑재된 8MP 와이드 카메라는 선명하고 또렷한 사진과 동영상을 담을 수 있습니다.</p>
             </div>
             <div class="info">
               <div class="icon icon--scan"></div>
@@ -305,7 +349,7 @@
           <div class="figures">
             <figure>
               <img src="./images/camera_edit.jpg" alt="사진 앱에서 편집되고 있는 이미지" />
-              <figcaption class='bgtext'>사진도 동영상도 찍고 편집하고</figcaption>
+              <figcaption class="bgtext">사진도 동영상도 찍고 편집하고</figcaption>
             </figure>
           </div>
         </div>
@@ -319,20 +363,22 @@
       <div class="inner">
 
         <div class="facetime">
-          <h1 class='bgtext'>선이 없다는 건 한계가 없다는 것.</h1>
+          <h1 class="bgtext">
+            선이 없다는 건 한계가 없다는 것.
+          </h1>
           <div class="figures">
             <figure>
-              <img src="./images/wireless_facetime.jpg" alt="19명이 참여중인 Face Time 영상 통화" />
-              <figcaption class='bgtext'>FACETIME으로 소통하고</figcaption>
+              <img src="./images/wireless_facetime.jpg" alt="19명이 참여 중인 FaceTime 영상 통화" />
+              <figcaption class="bgtext">FACETIME으로 소통하고</figcaption>
             </figure>
           </div>
         </div>
 
         <div class="files feature">
-          <div class="infos infos--large">
+          <div class="infos">
             <div class="info">
               <div class="icon icon--download"></div>
-              <p>어디에서든 파일을 다운로드하고, 영화를 스트리밍하고, 동료와 협업하거나 콘텐츠를 업로드 할 수 있습니다.</p>
+              <p>어디에서든 파일을 다운로드하고, 영화를 스트리밍하고, 동료와 협업하거나 콘텐츠를 업로드할 수 있습니다.</p>
             </div>
             <div class="info">
               <div class="icon icon--wifi"></div>
@@ -343,14 +389,13 @@
               <p>
                 Gigabit급 LTE 덕분에 Wi-Fi에 연결할 수 없는 경우에도 온라인 접속이 가능합니다.<sup><a href="#footnote3">3</a></sup>
               </p>
-              <a href="javascript:void(0)" class='link'>셀룰러에 대해 더 알아보기</a>
+              <a href="javascript:void(0)" class="link">셀룰러에 대해 더 알아보기</a>
             </div>
           </div>
-
           <div class="figures">
             <figure>
               <img src="./images/wireless_files.png" alt="파일, iCloud Drive 선택 화면" />
-              <figcaption class='bgtext'>모든 파일 확인을 이동 중에도</figcaption>
+              <figcaption class="bgtext">모든 파일 확인을 이동 중에도</figcaption>
             </figure>
           </div>
         </div>
@@ -358,22 +403,25 @@
       </div>
     </section>
 
+
     <!-- Accessories -->
     <section class="accessories">
       <div class="inner">
 
-        <h1 class='bgtext'>손으로 쓰거나 키보드로 쓰거나</h1>
+        <h1 class="bgtext">
+          손으로 쓰거나 키보드로 치거나.
+        </h1>
         <div class="figures">
           <figure>
             <img src="./images/accessories.jpg"
               alt="Smart Keyboard와 Apple Pencil이 갖춰진 iPad에서 Split View로 Mail 앱의 이메일과 메모 앱의 손글씨 필기" />
-            <figcaption class='bgtext'>
+            <figcaption class="bgtext">
               <div class="caption-memo">이메일도 타이핑 하고 손글씨 메모도 적고</div>
               <div class="caption-supports">SMART KEYBOARD 및 APPLE PENCIL 지원</div>
             </figcaption>
           </figure>
         </div>
-        <div class="infos">
+        <div class="infos infos--large">
           <div class="info">
             <div class="icon icon--pencil"></div>
             <p>
@@ -394,27 +442,28 @@
               Apple Pencil을 활용해 기억에 남는 메모를 끄적이고, 멋진 예술 작품을 만들고,
               스크린샷에 마킹하는 등 실로 다양한 일을 할 수 있답니다.
             </p>
-            <a href="javascript:void(0)" class='link'>Apple Pencil에 대해 더 알아보기</a>
+            <a href="javascript:void(0)" class="link">Apple Pencil에 대해 더 알아보기</a>
           </div>
           <div class="info">
             <div class="icon icon--covers"></div>
             <p>
               Smart Keyboard는 접으면 어딜 가든 iPad를 보호해주는 슬림하고 가벼운 커버가 되어줍니다.<sup><a href="#footnote4">4</a></sup>
             </p>
-            <a href="javascript:void(0)" class='link'>Smart Keyboard에 대해 더 알아보기</a>
+            <a href="javascript:void(0)" class="link">Smart Keyboard에 대해 더 알아보기</a>
           </div>
         </div>
-
 
       </div>
     </section>
 
 
-    <!-- iPadOs -->
+    <!-- iPadOS -->
     <section class="ipados">
       <div class="inner">
 
-        <h1 class='bgtext'>iPadOS. 작업의 성공 방정식.</h1>
+        <h1 class="bgtext">
+          iPadOS. 작업의 성공 방정식.
+        </h1>
         <div class="infos infos--large">
           <div class="info">
             <p>널찍한 Multi-Touch 디스플레이를 위해 디자인된 iPadOS는 강력하면서도 누구든 손쉽게 사용할 수 있습니다.</p>
@@ -429,7 +478,6 @@
         </div>
         <div class="figures">
           <div class="figure-split-view">
-            <div class="figure"></div>
             <figure>
               <img src="./images/ipados_split_view.png" alt="Split View로 이미지를 편집하면서 Mail 앱을 사용 중인 모습" />
               <figcaption class="bgtext">두 개의 앱, 서로 양옆에 놓고 쓰기</figcaption>
@@ -452,11 +500,14 @@
       </div>
     </section>
 
+
     <!-- Apps -->
     <section class="apps">
       <div class="inner">
 
-        <h1 class='bgtext'>열정을 살려줄 다양한 앱.</h1>
+        <h1 class="bgtext">
+          열정을 살려줄 다양한 앱.
+        </h1>
         <div class="infos infos--large">
           <div class="info">
             <p>
@@ -465,7 +516,7 @@
               비트를 찍거나, 운동을 하거나, 뉴스를 읽을 수도 있습니다.
               심심할 땐 친구들과 신나는 게임 한 판을 즐길 수도 있죠.
             </p>
-            <a href="javascript:void(0)" class='link'>App Store에서 iPad용 앱 찾아보기</a>
+            <a href="javascript:void(0)" class="link">App Store에서 iPad용 앱 찾아보기</a>
           </div>
         </div>
         <div class="figures">
@@ -503,9 +554,9 @@
           </div>
         </div>
 
-
       </div>
     </section>
+
 
     <!-- Privacy -->
     <section class="privacy">
@@ -566,6 +617,7 @@
 
       </div>
     </div>
+
 
     <!-- AR -->
     <section class="ar">
@@ -658,6 +710,7 @@
         </div>
       </div>
     </section>
+
 
     <!-- Footer -->
     <footer>
@@ -763,6 +816,5 @@
 
   </main>
 
-</body>
 
-</html>
+</body>
